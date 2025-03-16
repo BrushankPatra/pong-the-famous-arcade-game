@@ -1,5 +1,6 @@
 from turtle import Turtle
 
+# Paddle class inherited from Turtle class
 class Paddle(Turtle):
     def __init__(self, position):
         super().__init__()
